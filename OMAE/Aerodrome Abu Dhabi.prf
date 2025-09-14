@@ -1,4 +1,4 @@
-Settings	sector	\OMAE-Install-Package_20250723145109-241301-0007.sct
+Settings	sector	\OMAE-Developer-Package_20250914172640-241301-0048.sct
 Settings	SettingsfileSYMBOLOGY	\OMAE\Settings\Aerodrome\Symbology_AUH.txt
 Settings	SettingsfileVOICE	\OMAE\Settings\Aerodrome\OMAA\Voice.txt
 Settings	SettingsfilePROFILE	\OMAE\Settings\Aerodrome\OMAA\Profiles.txt
@@ -83,3 +83,6 @@ Plugins	Plugin3Display1	Ground Radar display
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
 Plugins	Plugin5Display0	Ground Radar display
+Plugins	Plugin8	\OMAE\Plugins\VATCANBookings\VATCANBookings.dll
+Plugins	Plugin8Display0	Ground Radar display
+Plugins	Plugin8Display1	Standard ES radar screen
