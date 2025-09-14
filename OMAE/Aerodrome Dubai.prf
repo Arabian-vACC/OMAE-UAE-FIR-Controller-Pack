@@ -1,4 +1,4 @@
-Settings	sector	\OMAE-Install-Package_20250723145109-241301-0007.sct
+Settings	sector	\OMAE-Developer-Package_20250914172640-241301-0048.sct
 Settings	SettingsfileSYMBOLOGY	\OMAE\Settings\Aerodrome\Symbology_DUB.txt
 Settings	SettingsfileVOICE	\OMAE\Settings\Aerodrome\OMDB\Voice.txt
 Settings	SettingsfilePROFILE	\OMAE\Settings\Aerodrome\OMDB\Profiles.txt
@@ -81,4 +81,6 @@ LastSession	range	275
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	atis_freq4	118000
-
+Plugins	Plugin8	\OMAE\Plugins\VATCANBookings\VATCANBookings.dll
+Plugins	Plugin8Display0	Ground Radar display
+Plugins	Plugin8Display1	Standard ES radar screen
