@@ -22,7 +22,7 @@ Window_APP_Scale=18
 Window_APP_AltFilter=6000
 Window_APP_Extensions=10
 
-Maps_URL=https://raw.githubusercontent.com/Arabian-vACC/OMAE-U.A.E-FIR-Controller-Pack/main/OMAE/Plugins/Ground%20Radar%20Plugin/GRpluginMaps.txt
+Maps_URL=https://raw.githubusercontent.com/Arabian-vACC/OMAE-UAE-FIR-Controller-Pack/main/OMAE/Plugins/Ground%20Radar%20Plugin/GRpluginMaps.txt
 Maps_FontSize=10
 GroundLabel_Font=EuroScope
 GroundLabel_FontSize=13
