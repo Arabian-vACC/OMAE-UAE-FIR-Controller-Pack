@@ -1,4 +1,4 @@
-Settings	sector	\OMAE-Install_20241104160449-241101-0004.sct
+Settings	sector	\OMAE-Developer-Package_20250924071938-241301-0050.sct
 Settings	SettingsfileSYMBOLOGY	\OMAE\Settings\Enroute\Symbology.txt
 Settings	SettingsfileVOICE	\OMAE\Settings\Enroute\Voice.txt
 Settings	SettingsfilePROFILE	\OMAE\Settings\Enroute\Profiles.txt
@@ -76,19 +76,12 @@ Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	Ground Radar display
 Plugins	Plugin3	\OMAE\Plugins\Ground Radar Plugin\GRplugin.dll
 Plugins	Plugin3Display0	Ground Radar display
-Plugins	Plugin3Display1	DelHel
-Plugins	Plugin4	\OMAE\Plugins\Delivery Helper\DelHel.dll
-Plugins	Plugin4Display0	DelHel
-Plugins	Plugin5	\OMAE\Plugins\VACDM\vACDM.dll
-Plugins	Plugin6	\OMAE\Plugins\Virtual Controller Helper\VCH.dll
-Plugins	Plugin7	\OMAE\Plugins\VFPC\VFPC.dll
-Plugins	Plugin8	\OMAE\Plugins\MAESTRO\MAESTRO.dll
-Plugins	Plugin9	\OMAE\Plugins\Sync.dll
-Plugins	Plugin10 \OMAE\Plugins\RDFPlugin.dll
-Plugins Plugin11 \OMAE\Plugins\IASsure\IASsure.dll
+Plugins	Plugin4	\OMAE\Plugins\VACDM\vACDM.dll
+Plugins	Plugin5	\OMAE\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin6	\OMAE\Plugins\VFPC\VFPC.dll
+Plugins	Plugin7	\OMAE\Plugins\MAESTRO\MAESTRO.dll
+Plugins	Plugin8	\OMAE\Plugins\IASsure\IASsure.dll
 Plugins	Plugin8Display0	Standard ES radar screen
-Plugins	Plugin10Display0 Standard ES radar screen
-Plugins	Plugin11Display0 Standard ES radar screen
 LastSession	connecttype	0
 LastSession	facility	0
 LastSession	rating	0
@@ -101,3 +94,4 @@ LastSession	range	275
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	atis_freq4	118000
+Plugins	Plugin7Display0	Standard ES radar screen
