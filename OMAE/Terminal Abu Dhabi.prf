@@ -1,4 +1,4 @@
-Settings	sector	\OMAE-Install_20241104160449-241101-0004.sct
+Settings	sector	\OMAE-Developer-Package_20250924071938-241301-0050.sct
 Settings	SettingsfileSYMBOLOGY	\OMAE\Settings\Terminal\Abu Dhabi\Symbology.txt
 Settings	SettingsfileVOICE	\OMAE\Settings\Terminal\Abu Dhabi\Voice.txt
 Settings	SettingsfilePROFILE	\OMAE\Settings\Terminal\Abu Dhabi\Profiles.txt
@@ -60,21 +60,15 @@ Sounds	Sound16	\OMAE\Sounds\handoff_refused.wav
 Sounds	Sound17	\OMAE\Sounds\pointout.wav
 Sounds	Sound18	\OMAE\Sounds\startup.wav
 Plugins	Plugin0	\OMAE\Plugins\Audio for VATSIM\AfvEuroScopeBridge.dll
-Plugins	Plugin1	\OMAE\Plugins\Delivery Helper\DelHel.dll
-Plugins	Plugin2	\OMAE\Plugins\Discord Euroscope\DiscordEuroscope.dll
-Plugins	Plugin3	\OMAE\Plugins\Ground Radar Plugin\GRplugin.dll
-Plugins	Plugin4	\OMAE\Plugins\TopSky\TopSky CTA Abu Dhabi\TopSky.dll
-Plugins	Plugin5	\OMAE\Plugins\VACDM\vACDM.dll
-Plugins	Plugin6	\OMAE\Plugins\Virtual Controller Helper\VCH.dll
-Plugins	Plugin7	\OMAE\Plugins\VFPC\VFPC.dll
-Plugins	Plugin8	\OMAE\Plugins\Sync.dll
-Plugins	Plugin9	\OMAE\Plugins\IASsure\IASsure.dll
-Plugins	Plugin10	\OMAE\Plugins\RDFPlugin.dll
-Plugins	Plugin3Display0	Ground Radar display
-Plugins	Plugin4Display0	Standard ES radar screen
-Plugins	Plugin4Display1	Ground Radar display
-Plugins	Plugin9Display0	Standard ES radar screen
-Plugins	Plugin10Display0	Standard ES radar screen
+Plugins	Plugin1	\OMAE\Plugins\Discord Euroscope\DiscordEuroscope.dll
+Plugins	Plugin2	\OMAE\Plugins\Ground Radar Plugin\GRplugin.dll
+Plugins	Plugin3	\OMAE\Plugins\TopSky\TopSky CTA Abu Dhabi\TopSky.dll
+Plugins	Plugin4	\OMAE\Plugins\VACDM\vACDM.dll
+Plugins	Plugin5	\OMAE\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin6	\OMAE\Plugins\VFPC\VFPC.dll
+Plugins	Plugin7	\OMAE\Plugins\IASsure\IASsure.dll
+Plugins	Plugin8	\OMAE\Plugins\RDFPlugin.dll
+Plugins	Plugin3Display0	Standard ES radar screen
 LastSession	connecttype	0
 LastSession	facility	0
 LastSession	rating	0
@@ -87,3 +81,7 @@ LastSession	range	275
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	atis_freq4	118000
+Plugins	Plugin2Display0	Ground Radar display
+Plugins	Plugin3Display1	Ground Radar display
+Plugins	Plugin7Display0	Standard ES radar screen
+Plugins	Plugin8Display0	Standard ES radar screen
