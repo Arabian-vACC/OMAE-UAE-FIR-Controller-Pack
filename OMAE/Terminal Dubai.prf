@@ -74,6 +74,8 @@ Plugins	Plugin3Display0	Standard ES radar screen
 Plugins	Plugin9	\OMAE\Plugins\vSID\vSID Plugin Dark\vSID.dll
 Plugins	Plugin9Display0	Ground Radar display
 Plugins	Plugin9Display1	Standard ES radar screen
+Plugins	Plugin10 \OMAE\Plugins\RDFPlugin.dll
+Plugins	Plugin10Display0 Standard ES radar screen
 LastSession	connecttype	0
 LastSession	facility	0
 LastSession	rating	0
