@@ -85,8 +85,6 @@ Plugins	Plugin8Display0	Standard ES radar screen
 Plugins	Plugin9	\OMAE\Plugins\vSID\vSID Plugin Dark\vSID.dll
 Plugins	Plugin9Display0	Ground Radar display
 Plugins	Plugin9Display1	Standard ES radar screen
-Plugins	Plugin10 \OMAE\Plugins\RDFPlugin.dll
-Plugins	Plugin10Display0 Standard ES radar screen
 LastSession	connecttype	0
 LastSession	facility	0
 LastSession	rating	0
@@ -100,3 +98,6 @@ LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	atis_freq4	118000
 Plugins	Plugin7Display0	Standard ES radar screen
+Plugins	Plugin10	\OMAE\Plugins\RDFPlugin.dll
+Plugins	Plugin10Display0	Ground Radar display
+Plugins	Plugin10Display1	Standard ES radar screen
