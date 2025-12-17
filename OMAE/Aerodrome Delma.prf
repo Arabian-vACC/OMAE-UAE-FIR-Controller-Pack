@@ -35,7 +35,6 @@ Plugins	Plugin1	\OMAE\Plugins\Discord Euroscope\DiscordEuroscope.dll
 Plugins	Plugin2	\OMAE\Plugins\Ground Radar Plugin\GRplugin.dll
 Plugins	Plugin3	\OMAE\Plugins\TopSky\TopSky Aerodrome South\TopSky.dll
 Plugins	Plugin4	\OMAE\Plugins\VACDM\vACDM.dll
-Plugins	Plugin5	\OMAE\Plugins\vSID\vSID Plugin Dark\vSID.dll
 Plugins	Plugin6	\OMAE\Plugins\Virtual Controller Helper\VCH.dll
 Plugins	Plugin7	\OMAE\Plugins\VFPC\VFPC.dll
 Plugins	Plugin1Display1	Ground Radar display
