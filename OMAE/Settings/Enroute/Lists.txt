@@ -59,7 +59,7 @@ m_X:14
 m_Y:64
 m_LineNumber:10
 m_Resizable:1
-m_OrderingColumn:22
+m_OrderingColumn:1
 m_HeaderOnly:0
 m_Column::2:1:10081:106:0:1:TopSky plugin:TopSky plugin::0:0.0
 m_Column:POS:6:1:1:1:0:1:Ground Radar plugin:Ground Radar plugin::1:0.0
@@ -83,6 +83,7 @@ m_Column:HS:4:1:440:444:0:1:VCH:VCH::0:0.0
 m_Column:T:2:0:80:32:0:1::::8:0.0
 m_Column:RMK:12:1:38:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
 END
+
 ARR
 m_Visible:1
 m_X:871
