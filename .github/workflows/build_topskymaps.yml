@@ -1,63 +1,76 @@
-name: Build TopSkyMaps
+name: Auto-generate TopSkyMaps (PR)
 
 on:
-  push:
-    branches:
-      - main
+  pull_request_target:
+    branches: [ main ]
     paths:
-      - '.data/TopSkyMaps/**'
+      - ".data/TopSkyMaps/**"
+      - ".github/workflows/concatenate_topskymaps.py"
 
 concurrency:
-  group: map-build
+  group: map-build-${{ github.event.pull_request.number }}
   cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Security: do not run on forks
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip
 
-    - name: Concatenate and clean files
-      run: |
-        python .github/workflows/concatenate_topskymaps.py
+      - name: Concatenate and clean files
+        run: python .github/workflows/concatenate_topskymaps.py
 
-    - name: Commit changes
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add 'OMAE/Plugins/TopSky/TopSky Aerodrome North/TopSkyMaps.txt'
-        git add 'OMAE/Plugins/TopSky/TopSky Aerodrome South/TopSkyMaps.txt'
-        git add 'OMAE/Plugins/TopSky/TopSky Aerodrome Maktoum/TopSkyMaps.txt'
-        git add 'OMAE/Plugins/TopSky/TopSky Enroute/TopSkyMaps.txt'
-        git add 'OMAE/Plugins/TopSky/TopSky CTA Abu Dhabi/TopSkyMaps.txt'
-        git add 'OMAE/Plugins/TopSky/TopSky CTA Dubai/TopSkyMaps.txt'
-        git add 'OMAE/Plugins/TopSky/TopSky CTA Military/TopSkyMaps.txt'
-        git add 'OMAE/Plugins/TopSky/TopSky CTA/TopSkyMaps.txt'
-        git commit -m 'Update TopSkyMaps files'
-        git push
+      - name: Commit changes (if any) and push back to PR
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: Upload cleaned files
-        path: |
-          OMAE/Plugins/TopSky/TopSky Aerodrome North/TopSkyMaps.txt
-          OMAE/Plugins/TopSky/TopSky Aerodrome South/TopSkyMaps.txt
-          OMAE/Plugins/TopSky/TopSky Aerodrome Maktoum/TopSkyMaps.txt
-          OMAE/Plugins/TopSky/TopSky Enroute/TopSkyMaps.txt
-          OMAE/Plugins/TopSky/TopSky CTA Abu Dhabi/TopSkyMaps.txt
-          OMAE/Plugins/TopSky/TopSky CTA Dubai/TopSkyMaps.txt
-          OMAE/Plugins/TopSky/TopSky CTA Military/TopSkyMaps.txt
-          OMAE/Plugins/TopSky/TopSky CTA/TopSkyMaps.txt
-          
+          git add \
+            "OMAE/Plugins/TopSky/TopSky Aerodrome North/TopSkyMaps.txt" \
+            "OMAE/Plugins/TopSky/TopSky Aerodrome South/TopSkyMaps.txt" \
+            "OMAE/Plugins/TopSky/TopSky Aerodrome Maktoum/TopSkyMaps.txt" \
+            "OMAE/Plugins/TopSky/TopSky Enroute/TopSkyMaps.txt" \
+            "OMAE/Plugins/TopSky/TopSky CTA Abu Dhabi/TopSkyMaps.txt" \
+            "OMAE/Plugins/TopSky/TopSky CTA Dubai/TopSkyMaps.txt" \
+            "OMAE/Plugins/TopSky/TopSky CTA Military/TopSkyMaps.txt" \
+            "OMAE/Plugins/TopSky/TopSky CTA/TopSkyMaps.txt"
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update TopSkyMaps files"
+          git push
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Upload cleaned files
+          path: |
+            OMAE/Plugins/TopSky/TopSky Aerodrome North/TopSkyMaps.txt
+            OMAE/Plugins/TopSky/TopSky Aerodrome South/TopSkyMaps.txt
+            OMAE/Plugins/TopSky/TopSky Aerodrome Maktoum/TopSkyMaps.txt
+            OMAE/Plugins/TopSky/TopSky Enroute/TopSkyMaps.txt
+            OMAE/Plugins/TopSky/TopSky CTA Abu Dhabi/TopSkyMaps.txt
+            OMAE/Plugins/TopSky/TopSky CTA Dubai/TopSkyMaps.txt
+            OMAE/Plugins/TopSky/TopSky CTA Military/TopSkyMaps.txt
+            OMAE/Plugins/TopSky/TopSky CTA/TopSkyMaps.txt
