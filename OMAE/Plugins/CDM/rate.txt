@@ -1,0 +1,34 @@
+# OMAA
+# Independent Parallel Ops
+OMAA:A:31R:31L:D:31L:31R:*:34_17
+# RWY 13L for arrivals, 13R for departures (independent)
+OMAA:A:13L:13R:D:13R:13L:*:34_17
+# RWY 31R for arrivals, 31L for departures (independent)
+OMAA:A:31R:31L:D:31L:31R:*:34_17
+# Mixed Use (Both runways for arr/dep) Both 31L and 31R used for departures, with some dependency (e.g., taxiway conflicts, sequencing)
+OMAA:A:31L,31R:*:D:31L,31R:*:31L,31R:30_15
+OMAA:A:13L,13R:*:D:13L,13R:*:13L,13R:30_15
+# Single Runway Ops
+OMAA:A:31L:31R:D:31L:31R:31L:28_14
+OMAA:A:31R:31L:D:31R:31L:31L:28_14
+OMAA:A:13R:13L:D:13R:13L:13R:28_14
+
+# OMDB
+# 30 Duals
+OMDB:A:30L:*:D:30R:30L:30L,30R:36_18
+# 12 Duals
+OMDB:A:12L:*:D:12R:12L:12L,12R:36_18
+# 12L SRO
+OMDB:A:12L:*:D:12L:12R:12L,12R:25_12
+# 12R SRO
+OMDB:A:12R:*:D:12R:12L:12L,12R:25_12
+# 30L SRO
+OMDB:A:30L:*:D:30L:30R:30L,30R:25_12
+# 30R SRO
+OMDB:A:30R:*:D:30R:30L:30L,30R:25_12
+
+# OMDW
+OMDW:A:*:*:D:*:*:*:20_10
+
+# OMSJ
+OMSJ:A:*:*:D:*:*:*:20_10
