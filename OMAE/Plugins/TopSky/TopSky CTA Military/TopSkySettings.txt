@@ -62,6 +62,12 @@ Menu_MaxListItems=15
 Window_SM_LeaveHoldTime=3
 Window_CARD_View_Risk=0
 
+Window_DCL_SetASSR=1
+Window_DCL_SetCFL=1
+Window_DCL_SetNFREQ=1
+
+Window_PDC_SetASSR=1
+
 WXR_Latitude=24.5
 WXR_Latitude_Max=28
 WXR_Latitude_Min=21
@@ -76,6 +82,8 @@ HTTP_GRIB_Longitude_Max=60
 HTTP_GRIB_Longitude_Min=48
 
 Shortcut_RadarMenu_Combo=0x12
+Shortcut_Map_Xfr_Key=1,0x4D ; M
+Shortcut_Map_Target=1,ASP SURV MIN ALT\OMDB SURV MIN ALT
 
 CPDLC_MinLevel=155
 CPDLC_Transfer=1

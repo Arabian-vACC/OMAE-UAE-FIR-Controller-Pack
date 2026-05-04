@@ -57,6 +57,12 @@ STCA_LevelOff_Sep_Vert_L=700
 
 Menu_MaxListItems=15
 
+Window_DCL_SetASSR=1
+Window_DCL_SetCFL=1
+Window_DCL_SetNFREQ=1
+
+Window_PDC_SetASSR=1
+
 WXR_Latitude=24.5
 WXR_Latitude_Max=28
 WXR_Latitude_Min=21
