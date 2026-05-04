@@ -81,7 +81,7 @@ HTTP_GRIB_Longitude_Min=48
 
 Shortcut_RadarMenu_Combo=0x12
 Shortcut_Map_Xfr_Key=1,0x4D ; M
-Shortcut_Map_Target=1,ASP SURV MIN ALT\OMDB SURV MIN ALT
+Shortcut_Map_Target=1,ASP SURV MIN ALT\OMFJ SURV MIN ALT
 
 CPDLC_MinLevel=155
 CPDLC_Transfer=1
@@ -89,7 +89,6 @@ CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
-CPDLC_FSM_CLD_Header=<adep> PDC <number> . . . . . CLD <hour><min> <year2><month2><day> <adep> PDC <number>. @<callsign>@
 
 RDF_Mode=1
 
