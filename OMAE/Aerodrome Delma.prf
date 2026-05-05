@@ -41,8 +41,6 @@ Plugins	Plugin1Display1	Ground Radar display
 Plugins	Plugin3Display0	Standard ES radar screen
 Plugins	Plugin2Display0	Ground Radar display
 Plugins	Plugin3Display1	Ground Radar display
-Plugins	Plugin4Display0	Standard ES radar screen
-Plugins	Plugin4Display1	Ground Radar display
 Sounds	Sound0	\OMAE\Sounds\handoff_request.wav
 Sounds	Sound1	\OMAE\Sounds\handoff_accept.wav
 Sounds	Sound2	\OMAE\Sounds\conflict_alert.wav

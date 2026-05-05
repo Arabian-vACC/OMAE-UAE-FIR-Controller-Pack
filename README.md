@@ -5,7 +5,8 @@
 [![vfpc-version](https://img.shields.io/badge/vFPC-2.1.1-blue.svg)](https://github.com/hpeter2/VFPC)
 [![cdm-version](https://img.shields.io/badge/CDM-2.28-blue.svg)](https://github.com/rpuig2001/CDM)
 [![vch-version](https://img.shields.io/badge/Virtual%20Controller%20Helper-0.8.6-blue.svg)](https://github.com/DrFreas/VCH)
-[![afv-version](https://img.shields.io/badge/AFV-1.3.0-blue.svg)](https://audio.vatsim.net/docs/2.0/atc/euroscope)
+[![rdf-version](https://img.shields.io/badge/RDFPlugin-1.4.2-blue.svg)](https://github.com/KingfuChan/RDF)
 
 # U.A.E FIR (OMAE) Controller Pack
+
 Welcome to the GitHub repository for the U.A.E FIR (OMAE) controller pack! Inside, you'll find all the "plug-and-play" files necessary to match your setup to be as realistic as the real-world on the VATSIM network. We ensure updates are available with each AIRAC cycle! Please note that this is for development and open collaborative purposes. For the latest release please download your files from [AeroNav - OMAE FIR](https://files.aero-nav.com/OMAE)!
