@@ -60,17 +60,16 @@ Plugins	Plugin1	\OMAE\Plugins\Delivery Helper\DelHel.dll
 Plugins	Plugin2	\OMAE\Plugins\Discord Euroscope\DiscordEuroscope.dll
 Plugins	Plugin3	\OMAE\Plugins\Ground Radar Plugin\GRplugin.dll
 Plugins	Plugin4	\OMAE\Plugins\TopSky\TopSky CTA Military\TopSky.dll
-Plugins	Plugin5	\OMAE\Plugins\VACDM\vACDM.dll
-Plugins	Plugin6	\OMAE\Plugins\Virtual Controller Helper\VCH.dll
-Plugins	Plugin7	\OMAE\Plugins\VFPC\VFPC.dll
-Plugins	Plugin8	\OMAE\Plugins\Sync.dll
-Plugins	Plugin9	\OMAE\Plugins\IASsure\IASsure.dll
-Plugins	Plugin10	\OMAE\Plugins\RDFPlugin.dll
+Plugins	Plugin5	\OMAE\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin6	\OMAE\Plugins\VFPC\VFPC.dll
+Plugins	Plugin7	\OMAE\Plugins\Sync.dll
+Plugins	Plugin8	\OMAE\Plugins\IASsure\IASsure.dll
+Plugins	Plugin9	\OMAE\Plugins\RDFPlugin.dll
 Plugins	Plugin3Display0	Ground Radar display
 Plugins	Plugin4Display0	Standard ES radar screen
 Plugins	Plugin4Display1	Ground Radar display
+Plugins	Plugin8Display0	Standard ES radar screen
 Plugins	Plugin9Display0	Standard ES radar screen
-Plugins	Plugin10Display0	Standard ES radar screen
 LastSession	connecttype	0
 LastSession	facility	0
 LastSession	rating	0
