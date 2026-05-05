@@ -82,6 +82,8 @@ HTTP_GRIB_Longitude_Min=48
 Shortcut_RadarMenu_Combo=0x12
 Shortcut_Map_Xfr_Key=1,0x4D ; M
 Shortcut_Map_Target=1,ASP SURV MIN ALT\OMDB SURV MIN ALT
+Shortcut_Map_Xfr_Key=2,0x54 ; T
+Shortcut_Map_Target=2,ASP BANDBOX\EXTENDED CENTRELINE
 
 CPDLC_MinLevel=155
 CPDLC_Transfer=1
