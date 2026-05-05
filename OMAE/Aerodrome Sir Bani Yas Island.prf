@@ -15,8 +15,8 @@ Settings	SettingsfileSCREEN	\OMAE\Settings\Aerodrome\Screen.txt
 Settings	SettingsfileVCCS	\OMAE\Settings\Aerodrome\VCCS_AUH.txt
 Settings	SettingsfilePILOTING	\OMAE\Settings\Aerodrome\General.txt
 Settings	SettingsfileORIGPLANE	\OMAE\Settings\Aerodrome\General.txt
-Settings	SettingsfileSTUP	\OMAE\Settings\Aerodrome\General.txt
-Settings	SettingsfileTAXIOUT	\OMAE\Settings\Aerodrome\General.txt
+Settings	SettingsfileSTUP	\OMAE\Settings\Aerodrome\Lists.txt
+Settings	SettingsfileTAXIOUT	\OMAE\Settings\Aerodrome\Lists.txt
 Settings	SettingsfileTAKEOFF	\OMAE\Settings\Aerodrome\General.txt
 Settings	SettingsfileADCS	\OMAE\Settings\Aerodrome\General.txt
 Settings	SettingsfileTAXIIN	\OMAE\Settings\Aerodrome\General.txt

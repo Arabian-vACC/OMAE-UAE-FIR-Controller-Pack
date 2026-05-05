@@ -15,8 +15,8 @@ Settings	SettingsfileCONFLICT	\OMAE\Settings\Terminal\Lists.txt
 Settings	SettingsfileVCCS	\OMAE\Settings\Terminal\VCCS_DUB.txt
 Settings	SettingsfilePILOTING	\OMAE\Settings\Terminal\General.txt
 Settings	SettingsfileORIGPLANE	\OMAE\Settings\Terminal\General.txt
-Settings	SettingsfileSTUP	\OMAE\Settings\Terminal\General.txt
-Settings	SettingsfileTAXIOUT	\OMAE\Settings\Terminal\General.txt
+Settings	SettingsfileSTUP	\OMAE\Settings\Terminal\Lists.txt
+Settings	SettingsfileTAXIOUT	\OMAE\Settings\Terminal\Lists.txt
 Settings	SettingsfileTAKEOFF	\OMAE\Settings\Terminal\General.txt
 Settings	SettingsfileADCS	\OMAE\Settings\Terminal\General.txt
 Settings	SettingsfileTAXIIN	\OMAE\Settings\Terminal\General.txt

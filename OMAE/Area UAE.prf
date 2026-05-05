@@ -15,8 +15,8 @@ Settings	SettingsfileCONFLICT	\OMAE\Settings\Enroute\Lists.txt
 Settings	SettingsfileVCCS	\OMAE\Settings\Enroute\VCCS.txt
 Settings	SettingsfilePILOTING	\OMAE\Settings\Enroute\General.txt
 Settings	SettingsfileORIGPLANE	\OMAE\Settings\Enroute\General.txt
-Settings	SettingsfileSTUP	\OMAE\Settings\Enroute\General.txt
-Settings	SettingsfileTAXIOUT	\OMAE\Settings\Enroute\General.txt
+Settings	SettingsfileSTUP	\OMAE\Settings\Enroute\Lists.txt
+Settings	SettingsfileTAXIOUT	\OMAE\Settings\Enroute\Lists.txt
 Settings	SettingsfileTAKEOFF	\OMAE\Settings\Enroute\General.txt
 Settings	SettingsfileADCS	\OMAE\Settings\Enroute\General.txt
 Settings	SettingsfileTAXIIN	\OMAE\Settings\Enroute\General.txt
