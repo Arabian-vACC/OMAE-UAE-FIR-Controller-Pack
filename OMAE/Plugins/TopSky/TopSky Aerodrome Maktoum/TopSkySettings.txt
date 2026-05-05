@@ -3,6 +3,8 @@
 //
 // To be used on the VATSIM Network only
 
+Maps_URL=https://raw.githubusercontent.com/Arabian-vACC/OMAE-UAE-FIR-Controller-Pack/refs/heads/main/OMAE/Plugins/TopSky/TopSky%20Aerodrome%20Maktoum/TopSkyMaps.txt
+
 Setup_COOPANS=1
 Setup_AutoSignIn=1
 
