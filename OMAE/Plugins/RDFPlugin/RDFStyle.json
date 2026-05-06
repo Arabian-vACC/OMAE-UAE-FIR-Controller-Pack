@@ -1,0 +1,26 @@
+[
+  {
+    "Arabian Gold": {
+      "Radius": 50,
+      "Precision": 5,
+      "Threshold": 999999,
+      "LowAltitude": 0,
+      "RGB": "203:140:2",
+      "ConcurrentTransmissionRGB": "203:140:2",
+      "DrawControllers": false,
+      "DrawRequireTx": false
+    }
+  },
+  {
+    "Arabian Grey": {
+      "Radius": 50,
+      "Precision": 5,
+      "Threshold": 999999,
+      "LowAltitude": 0,
+      "RGB": "100:100:100",
+      "ConcurrentTransmissionRGB": "100:100:100",
+      "DrawControllers": false,
+      "DrawRequireTx": false
+    }
+  }
+]

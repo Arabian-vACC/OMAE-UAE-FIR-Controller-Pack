@@ -3,6 +3,8 @@
 //
 // To be used on the VATSIM Network only
 
+Maps_URL=https://raw.githubusercontent.com/Arabian-vACC/OMAE-UAE-FIR-Controller-Pack/refs/heads/main/OMAE/Plugins/TopSky/TopSky%20Aerodrome%South/TopSkyMaps.txt
+
 Setup_COOPANS=1
 Setup_AutoSignIn=1
 
@@ -57,6 +59,13 @@ STCA_LevelOff_Sep_Vert_L=700
 
 Menu_MaxListItems=15
 
+Window_DCL_SetASSR=1
+Window_DCL_SetCFL=1
+Window_DCL_SetNFREQ=1
+
+Window_PDC_SetASSR=1
+Window_PDC_SetCFL=1
+
 WXR_Latitude=24.5
 WXR_Latitude_Max=28
 WXR_Latitude_Min=21
@@ -75,15 +84,14 @@ Window_CARD_View_Risk=0
 
 Shortcut_RadarMenu_Combo=0x12
 
-CPDLC_Default = 1
-CPDLC_MinLevel=285
+CPDLC_MinLevel=295
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
 
-RDF_Mode=0
+RDF_Mode=-1
 
 Equip_ModeS=PISXEHL
 Equip_UseCodes=2
