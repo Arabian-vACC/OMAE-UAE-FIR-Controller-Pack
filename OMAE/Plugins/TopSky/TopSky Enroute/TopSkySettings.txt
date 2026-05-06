@@ -3,6 +3,8 @@
 //
 // To be used on the VATSIM Network only
 
+Maps_URL=https://raw.githubusercontent.com/Arabian-vACC/OMAE-UAE-FIR-Controller-Pack/refs/heads/main/OMAE/Plugins/TopSky/TopSky%20Enroute/TopSkyMaps.txt
+
 Setup_COOPANS=1
 Setup_AutoSignIn=1
 
@@ -65,6 +67,7 @@ Window_DCL_SetCFL=1
 Window_DCL_SetNFREQ=1
 
 Window_PDC_SetASSR=1
+Window_PDC_SetCFL=1
 
 WXR_Latitude=24.5
 WXR_Latitude_Max=28
@@ -85,14 +88,14 @@ Shortcut_Map_Target=1,ASP SURV MIN ALT\OMDB SURV MIN ALT
 Shortcut_Map_Xfr_Key=2,0x54 ; T
 Shortcut_Map_Target=2,ASP BANDBOX\EXTENDED CENTRELINE
 
-CPDLC_MinLevel=155
+CPDLC_MinLevel=295
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
 
-RDF_Mode=1
+RDF_Mode=-1
 
 Equip_ModeS=PISXEHL
 Equip_UseCodes=2

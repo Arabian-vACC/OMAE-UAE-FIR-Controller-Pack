@@ -69,6 +69,7 @@ Window_DCL_SetCFL=1
 Window_DCL_SetNFREQ=1
 
 Window_PDC_SetASSR=1
+Window_PDC_SetCFL=1
 
 WXR_Latitude=24.5
 WXR_Latitude_Max=28
@@ -87,14 +88,14 @@ Shortcut_RadarMenu_Combo=0x12
 Shortcut_Map_Xfr_Key=1,0x4D ; M
 Shortcut_Map_Target=1,ASP SURV MIN ALT\OMAA SURV MIN ALT
 
-CPDLC_MinLevel=155
+CPDLC_MinLevel=295
 CPDLC_Transfer=1
 CPDLC_CFL=1
 CPDLC_DCT=1
 CPDLC_AHDG=1
 CPDLC_ASP=1
 
-RDF_Mode=1
+RDF_Mode=-1
 
 Equip_ModeS=PISXEHL
 Equip_UseCodes=2
