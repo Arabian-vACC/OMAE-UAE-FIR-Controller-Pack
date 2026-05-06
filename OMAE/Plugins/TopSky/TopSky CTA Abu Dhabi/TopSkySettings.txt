@@ -1,8 +1,6 @@
 // File created for the Arabian vACC - U.A.E FIR (OMAE)
 // Developed and maintained by the Arabian vACC Operations Department
 //
-// Version 1.0.0
-//
 // To be used on the VATSIM Network only
 
 Maps_URL=https://raw.githubusercontent.com/Arabian-vACC/OMAE-UAE-FIR-Controller-Pack/refs/heads/main/OMAE/Plugins/TopSky/TopSky%20CTA%20Abu%20Dhabi/TopSkyMaps.txt
