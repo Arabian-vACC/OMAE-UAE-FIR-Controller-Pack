@@ -4,11 +4,11 @@ ATIS2:Arabian vACC Observer
 ATIS3:vACC Information - arabian-vacc.com
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMRK_TWR:50:4
-ATIS2:"Ras-Al-Khaimah Tower" - DCL [UNUSBL]
+ATIS2:"Ras-Al-Khaimah Tower"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMRK_GND:20:3
-ATIS2:"Ras-Al-Khaimah Ground" - DCL [UNUSBL]
+ATIS2:"Ras-Al-Khaimah Ground"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 END

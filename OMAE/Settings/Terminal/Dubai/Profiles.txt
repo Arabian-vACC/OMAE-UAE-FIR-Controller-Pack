@@ -12,11 +12,11 @@ ATIS2:"Dubai Arrivals" - DCL [OMDA]
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_1_DEP:150:5
-ATIS2:"Dubai Departures" - DCL [OMDD]
+ATIS2:"Dubai Departures"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_2_DEP:150:5
-ATIS2:"Dubai Departures" - DCL [OMDD]
+ATIS2:"Dubai Departures"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_F_APP:150:5
