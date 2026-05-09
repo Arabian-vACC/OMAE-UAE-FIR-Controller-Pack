@@ -12,7 +12,7 @@ ATIS2:"Abu Dhabi Tower" - DCL [OMAA]
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_2_TWR:50:4
-ATIS2:"Abu Dhabi Tower" - DCL [OMAA]
+ATIS2:"Abu Dhabi Tower"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_AIR_FMP:50:4
@@ -28,11 +28,11 @@ ATIS2:"Abu Dhabi Ground" - DCL [OMAA]
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_2_GND:20:3
-ATIS2:"Abu Dhabi Ground" - DCL [OMAA]
+ATIS2:"Abu Dhabi Ground"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_3_GND:20:3
-ATIS2:"Abu Dhabi Ground" - DCL [OMAA]
+ATIS2:"Abu Dhabi Ground"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_GMC_FMP:20:3

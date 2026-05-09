@@ -83,8 +83,8 @@ Window_SM_LeaveHoldTime=3
 Window_CARD_View_Risk=0
 
 Shortcut_RadarMenu_Combo=0x12
-Shortcut_Map_Xfr_Key=1,0x4D ; M
-Shortcut_Map_Target=1,ASP SURV MIN ALT\OMDB SURV MIN ALT
+Shortcut_Map_Xfr_Key=1,0x56 ; V
+Shortcut_Map_Target=1,VFR
 
 CPDLC_MinLevel=285
 CPDLC_Transfer=1

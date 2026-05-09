@@ -12,19 +12,19 @@ ATIS2:"Abu Dhabi Radar Central" - DCL [OMAA]
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_2_APP:150:5
-ATIS2:"Abu Dhabi Radar West" - DCL [OMAA]
+ATIS2:"Abu Dhabi Radar West"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_3_APP:150:5
-ATIS2:"Abu Dhabi Radar North" - DCL [OMAA]
+ATIS2:"Abu Dhabi Radar North"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_3X_APP:150:5
-ATIS2:"Abu Dhabi Radar North" - DCL [OMAA]
+ATIS2:"Abu Dhabi Radar North"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_4_APP:150:5
-ATIS2:"Abu Dhabi Radar East" - DCL [OMAA]
+ATIS2:"Abu Dhabi Radar East"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_F1_APP:150:5

@@ -87,6 +87,8 @@ Shortcut_Map_Xfr_Key=1,0x4D ; M
 Shortcut_Map_Target=1,ASP SURV MIN ALT\OMDB SURV MIN ALT
 Shortcut_Map_Xfr_Key=2,0x54 ; T
 Shortcut_Map_Target=2,ASP BANDBOX\EXTENDED CENTRELINE
+Shortcut_Map_Xfr_Key=3,0x56 ; V
+Shortcut_Map_Target=3,VFR
 
 CPDLC_MinLevel=295
 CPDLC_Transfer=1

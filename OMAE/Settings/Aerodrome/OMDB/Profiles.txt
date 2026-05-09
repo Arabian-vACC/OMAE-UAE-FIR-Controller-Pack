@@ -12,11 +12,11 @@ ATIS2:"Dubai Tower" - DCL [OMDB]
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_2_TWR:50:4
-ATIS2:"Dubai Tower" - DCL [OMDB]
+ATIS2:"Dubai Tower"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_I_TWR:50:4
-ATIS2:"Dubai Tower" - DCL [OMDB]
+ATIS2:"Dubai Tower"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_AIR_FMP:50:4
@@ -32,7 +32,7 @@ ATIS2:"Dubai Ground" - DCL [OMDB]
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_2_GND:20:3
-ATIS2:"Dubai Ground" - DCL [OMDB]
+ATIS2:"Dubai Ground"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_GMC_FMP:20:3
