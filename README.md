@@ -1,7 +1,7 @@
 ![arbvacc_omae_github](https://github.com/user-attachments/assets/061caf71-b3a1-41a2-88f7-225bfb0c9d4a)
 [![topsky-version](https://img.shields.io/badge/TopSky-2.6.3b-blue.svg)](https://forum.vatsim-scandinavia.org/d/34-topsky-plugin-25)
 [![gr-version](https://img.shields.io/badge/Ground%20Radar-1.6.4-blue.svg)](https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9iODdiMTg2ZDYxMmYyMWRlL0lRREstdE1nRnFuaFRiNzBGS3k3b19YakFjVEo0YkNzWkxmZmE3X1F2QXVLRUVJP2U9Yk9uTjBT&cid=B87B186D612F21DE&id=B87B186D612F21DE%21s20d3facaa9164de1bef414acbba3f5e3&parId=B87B186D612F21DE%2185105&o=OneUp)
-[![vsid-version](https://img.shields.io/badge/vSID-0.13.1-blue.svg)](https://github.com/Gameagle/vSID)
+[![vsid-version](https://img.shields.io/badge/vSID-0.14.3.1-blue.svg)](https://github.com/Gameagle/vSID)
 [![vfpc-version](https://img.shields.io/badge/vFPC-2.1.1-blue.svg)](https://github.com/hpeter2/VFPC)
 [![cdm-version](https://img.shields.io/badge/CDM-2.28-blue.svg)](https://github.com/rpuig2001/CDM)
 [![vch-version](https://img.shields.io/badge/Virtual%20Controller%20Helper-0.8.6-blue.svg)](https://github.com/DrFreas/VCH)
