@@ -93,7 +93,3 @@ LastSession	range	275
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	atis_freq4	118000
-Plugins	Plugin2Display0	Ground Radar display
-Plugins	Plugin3Display1	Ground Radar display
-Plugins	Plugin7Display0	Standard ES radar screen
-Plugins	Plugin8Display0	Standard ES radar screen
