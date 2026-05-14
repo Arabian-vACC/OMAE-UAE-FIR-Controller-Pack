@@ -1,0 +1,66 @@
+name: Auto-generate TopSkyFAST (PR)
+
+on:
+  pull_request_target:
+    branches: [ main ]
+    paths:
+      - ".data/TopSkyFAST/**"
+      - ".github/workflows/concatenate_TopSkyFAST.py"
+
+concurrency:
+  group: fast-build-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip
+
+      - name: Concatenate and clean files
+        run: python .github/workflows/concatenate_TopSkyFAST.py
+
+      - name: Commit changes (if any) and push back to PR
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            "OMAE/Plugins/TopSky/TopSky CTA/TopSkyFAST.txt" \
+            "OMAE/Plugins/TopSky/TopSky CTA Abu Dhabi/TopSkyFAST.txt" \
+            "OMAE/Plugins/TopSky/TopSky CTA Dubai/TopSkyFAST.txt" \
+            "OMAE/Plugins/TopSky/TopSky Enroute/TopSkyFAST.txt"
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update TopSkyFAST files"
+          git push
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Upload cleaned files
+          path: |
+            OMAE/Plugins/TopSky/TopSky CTA/TopSkyFAST.txt
+            OMAE/Plugins/TopSky/TopSky CTA Abu Dhabi/TopSkyFAST.txt
+            OMAE/Plugins/TopSky/TopSky CTA Dubai/TopSkyFAST.txt
+            OMAE/Plugins/TopSky/TopSky Enroute/TopSkyFAST.txt
