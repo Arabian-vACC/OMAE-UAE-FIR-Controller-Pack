@@ -1,26 +1,37 @@
 <?xml version="1.0"?>
 <CDM>
-	<rate ops="37" />
-	<rateLvo ops="15" />
+	<rate ops="40" />
+	<rateLvo ops="10" />
 	<expiredCtot time="25" />
 	<realMode mode="false" />
+	<bmi mode="false" />
 	<pilotTobt mode="true" />
-	<autoAtot mode="true" />
+	<autoAtot mode="false" />
 	<invalidateAtTsat mode="true" />
-	<Rates url="https://raw.githubusercontent.com/Arabian-vACC/CDM/refs/heads/main/OMAE/rate.txt" />
-	<Taxizones url="https://raw.githubusercontent.com/Arabian-vACC/CDM/refs/heads/main/OMAE/taxizones.txt" />
-	<Ctot url="https://raw.githubusercontent.com/Arabian-vACC/CDM/refs/heads/main/OMAE/CTOT.txt" />
-	<sidInterval url="https://raw.githubusercontent.com/Arabian-vACC/CDM/refs/heads/main/OMAE/SidInterval.txt" />
+	<invalidateAtTobt mode="true" />
+	<readySetTsac mode="true" />
+	<Rates url="" />
+	<Taxizones url="" />
+	<Slots url="" />
+	<sidInterval url="" />
 	<DefaultTaxiTime minutes="15" />
 	<DeIceTimes light="5" medium="9" heavy="12" super="15"/>
+	<DeIceRemTaxi rem1Name= "REM1" rem1="10" rem2Name= "REM2" rem2="10" rem3Name= "REM3" rem3="10" rem4Name= "REM4" rem4="10" rem5Name= "REM5" rem5="10"/>
+	<eventModeMin time="5" />
 	<RefreshTime seconds="10" />
 	<Debug mode="false" />
-	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
+	<FlowRestrictions url="" />
 	<vdgsFileType type="3"/>
 	<ftpHost host="" />
 	<ftpUser user="" />
 	<ftpPassword password="" />
-	<sftpConnection mode="true" />
+	<sftpConnection mode="false" />
 	<Server mode="true" />
 	<Su_Wait mode="false" />
+	<flashingMode tobtLastMin= "false" tsatFirstMin="false" tsatLastMin= "false"/>
+	<reqTobtPriority mode="false" />
+	<eventPriority mode="false" />
+	<autoSetTobtFromEvSlot mode="false" />
+	<remarksOptionCtot mode="false" />
+	<PrivateMessage text="[CDM MSG] PLEASE, MONITOR https://vats.im/vdgs FOR CDM AND ATFCM UPDATES. [END OF CDM MSG]" />
 </CDM>
