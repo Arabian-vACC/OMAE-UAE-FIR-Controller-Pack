@@ -4,6 +4,7 @@
 [![vsid-version](https://img.shields.io/badge/vSID-0.14.3.1-blue.svg)](https://github.com/Gameagle/vSID)
 [![vfpc-version](https://img.shields.io/badge/vFPC-2.1.1-blue.svg)](https://github.com/hpeter2/VFPC)
 [![cdm-version](https://img.shields.io/badge/CDM-2.29.2-blue.svg)](https://github.com/rpuig2001/CDM)
+[![slots-plugin-version](https://img.shields.io/badge/VATCAN-1.1.11-blue.svg)](https://github.com/VATSIMCanada/Slots-Plugin)
 [![vch-version](https://img.shields.io/badge/Virtual%20Controller%20Helper-0.8.6-blue.svg)](https://github.com/DrFreas/VCH)
 [![rdf-version](https://img.shields.io/badge/RDFPlugin-1.4.2-blue.svg)](https://github.com/KingfuChan/RDF)
 
