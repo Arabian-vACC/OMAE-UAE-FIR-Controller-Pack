@@ -5,11 +5,11 @@ ATIS3:vACC Information - arabian-vacc.com
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_1_TWR:50:4
 ATIS2:"Dubai Tower" - DCL [OMDB]
-ATIS3:Airport Information - vats.im/arb/airports
+ATIS3:Report TOBT at vats.im/vdgs | Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_1X_TWR:50:4
 ATIS2:"Dubai Tower" - DCL [OMDB]
-ATIS3:Airport Information - vats.im/arb/airports
+ATIS3:Report TOBT at vats.im/vdgs | Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_2_TWR:50:4
 ATIS2:"Dubai Tower"
@@ -21,15 +21,15 @@ ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_AIR_FMP:50:4
 ATIS2:"Dubai Tower Flow Manager" - DO NOT CONTACT ME!
-ATIS3:Airport Information - vats.im/arb/airports
+ATIS3:Report TOBT at vats.im/vdgs | Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_1_GND:20:3
 ATIS2:"Dubai Ground" - DCL [OMDB]
-ATIS3:Airport Information - vats.im/arb/airports
+ATIS3:Report TOBT at vats.im/vdgs | Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_1X_GND:20:3
 ATIS2:"Dubai Ground" - DCL [OMDB]
-ATIS3:Airport Information - vats.im/arb/airports
+ATIS3:Report TOBT at vats.im/vdgs | Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_2_GND:20:3
 ATIS2:"Dubai Ground"
@@ -37,14 +37,14 @@ ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_GMC_FMP:20:3
 ATIS2:"Dubai Ground" - DCL [OMDB]
-ATIS3:Airport Information - vats.im/arb/airports
+ATIS3:Report TOBT at vats.im/vdgs | Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_DEL:20:2
 ATIS2:"Dubai Delivery" - DCL [OMDB]
-ATIS3:Request clearance 10 minutes before departure. A-CDM vacdm.vatsim.me
+ATIS3:Report TOBT at vats.im/vdgs | Request clearance 10 minutes before TOBT.
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMDB_GMP_FMP:20:2
 ATIS2:"Dubai Delivery" - DCL [OMDB]
-ATIS3:Airport Information - vats.im/arb/airports
+ATIS3:Report TOBT at vats.im/vdgs | Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 END
