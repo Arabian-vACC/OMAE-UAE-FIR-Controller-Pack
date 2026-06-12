@@ -1,4 +1,4 @@
-Settings	sector	\OMAE-Install_20260611183920-260601-0001.sct
+Settings	sector	\OMAE-Install_20260515201223-260501-0005.sct
 Settings	SettingsfileSYMBOLOGY	\OMAE\Settings\Terminal\Dubai\Symbology.txt
 Settings	SettingsfileVOICE	\OMAE\Settings\Terminal\Dubai\Voice.txt
 Settings	SettingsfilePROFILE	\OMAE\Settings\Terminal\Dubai\Profiles.txt
@@ -71,11 +71,14 @@ Plugins	Plugin6	\OMAE\Plugins\VFPC\VFPC.dll
 Plugins	Plugin7	\OMAE\Plugins\VATCANBookings\VATCANBookings.dll
 Plugins	Plugin8	\OMAE\Plugins\MAESTRO\MAESTRO.dll
 Plugins	Plugin9	\OMAE\Plugins\IASsure\IASsure.dll
+Plugins	Plugin10 \OMAE\Plugins\vSID\vSID Plugin Dark\vSID.dll
+Plugins Plugin0Display0 Ground Radar display
 Plugins	Plugin0Display1	Standard ES radar screen
 Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin2Display1	Ground Radar display
 Plugins	Plugin3Display0	Ground Radar display
 Plugins	Plugin4Display0	Ground Radar display
+Plugins	Plugin4Display1 Standard ES radar screen
 Plugins	Plugin8Display0	Standard ES radar screen
 Plugins	Plugin9Display0	Standard ES radar screen
 LastSession	connecttype	0
@@ -90,6 +93,3 @@ LastSession	range	275
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	atis_freq4	118000
-Plugins	Plugin10	\OMAE\Plugins\vSID\vSID Plugin Dark\vSID.dll
-Plugins	Plugin10Display0	Ground Radar display
-Plugins	Plugin10Display1	Standard ES radar screen
