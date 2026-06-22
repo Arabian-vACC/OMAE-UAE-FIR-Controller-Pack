@@ -2,6 +2,10 @@ name: Auto-generate Ground Radar Plugin Maps (PR)
 
 on:
   pull_request_target:
+    paths:
+      - ".data/GroundRadarPluginMaps/**"
+      - ".github/workflows/concatenate_GRmaps.py"
+  push:
     branches: [ main ]
     paths:
       - ".data/GroundRadarPluginMaps/**"

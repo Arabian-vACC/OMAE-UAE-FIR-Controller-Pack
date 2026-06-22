@@ -2,6 +2,10 @@ name: Auto-generate TopSkyFAST (PR)
 
 on:
   pull_request_target:
+    paths:
+      - ".data/TopSkyFAST/**"
+      - ".github/workflows/concatenate_TopSkyFAST.py"
+  push:
     branches: [ main ]
     paths:
       - ".data/TopSkyFAST/**"

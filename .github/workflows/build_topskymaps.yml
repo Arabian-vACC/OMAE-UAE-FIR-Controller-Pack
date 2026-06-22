@@ -2,6 +2,10 @@ name: Auto-generate TopSkyMaps (PR)
 
 on:
   pull_request_target:
+    paths:
+      - ".data/TopSkyMaps/**"
+      - ".github/workflows/concatenate_topskymaps.py"
+  push:
     branches: [ main ]
     paths:
       - ".data/TopSkyMaps/**"
