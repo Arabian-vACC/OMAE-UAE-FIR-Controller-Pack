@@ -3,7 +3,7 @@
 [![gr-version](https://img.shields.io/badge/Ground%20Radar-1.6.4-blue.svg)](https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9iODdiMTg2ZDYxMmYyMWRlL0lRREstdE1nRnFuaFRiNzBGS3k3b19YakFjVEo0YkNzWkxmZmE3X1F2QXVLRUVJP2U9Yk9uTjBT&cid=B87B186D612F21DE&id=B87B186D612F21DE%21s20d3facaa9164de1bef414acbba3f5e3&parId=B87B186D612F21DE%2185105&o=OneUp)
 [![vsid-version](https://img.shields.io/badge/vSID-0.14.3.1-blue.svg)](https://github.com/Gameagle/vSID)
 [![vfpc-version](https://img.shields.io/badge/vFPC-2.1.1-blue.svg)](https://github.com/hpeter2/VFPC)
-[![cdm-version](https://img.shields.io/badge/CDM-2.29.4-blue.svg)](https://github.com/rpuig2001/CDM)
+[![cdm-version](https://img.shields.io/badge/CDM-2.29.5-blue.svg)](https://github.com/rpuig2001/CDM)
 [![slots-plugin-version](https://img.shields.io/badge/VATCAN-1.1.11-blue.svg)](https://github.com/VATSIMCanada/Slots-Plugin)
 [![vch-version](https://img.shields.io/badge/Virtual%20Controller%20Helper-0.8.6-blue.svg)](https://github.com/DrFreas/VCH)
 [![rdf-version](https://img.shields.io/badge/RDFPlugin-1.4.2-blue.svg)](https://github.com/KingfuChan/RDF)
