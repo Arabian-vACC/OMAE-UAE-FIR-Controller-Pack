@@ -1,4 +1,4 @@
-// NOTAM closures
+// RWY NOTAM closures
 
 MAP:Runway Closure 12L/30R
 FOLDER:Dubai SMGCS
