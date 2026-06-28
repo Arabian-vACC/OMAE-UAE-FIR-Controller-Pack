@@ -44,7 +44,7 @@ def add_stand_groups(source_directory, output_file):
 def main():
     base_dir = '.data/GroundRadarPluginMaps'
     targets = [
-        ('Maps', 'OMAE/Plugins/Ground Radar Plugin/GRpluginMaps.txt', ['regions.txt', 'regions_1.txt', 'AoRs.txt', 'regions_2.txt', 'dynamic_stands.txt', 'geo.txt', 'freetext.txt', 'nets.txt'], add_colours_and_definitions),
+        ('Maps', 'OMAE/Plugins/Ground Radar Plugin/GRpluginMaps.txt', ['regions.txt', 'regions_1.txt', 'AoRs.txt', 'regions_2.txt', 'dynamic_stands.txt', 'geo.txt', 'freetext.txt', 'nets.txt', 'notams.txt'], add_colours_and_definitions),
         ('Stands', 'OMAE/Plugins/Ground Radar Plugin/GRpluginStands.txt', ['stands.txt'], add_stand_groups),
     ]
 
