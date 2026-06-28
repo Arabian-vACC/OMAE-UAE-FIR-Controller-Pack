@@ -1,3 +1,5 @@
+// NOTAM closures
+
 MAP:Runway Closure 12L/30R
 FOLDER:Dubai SMGCS
 ACTIVE:260702:260703:0:1100:1400
