@@ -3,20 +3,22 @@
 //
 // To be used on the VATSIM Network only
 
+System_GUI_Version=1
 Equip_ProMode=0
 RawVideo=1
 Track_Heading_Line=0
 Track_HistoryDots_GND=3
 
-Color_Arrival=253,236,166
-Color_Departure=210,233,255
-Color_APP_Background=19,20,21
+Color_Arrival=252,222,84
+Color_Departure=139,220,243
+Color_APP_Background=22,26,25
 Color_RawVideo=255,255,0
-Color_Unknown=233,234,235
+Color_Unknown=160,160,160
 Color_APP_RunwayExtension=174,174,174
 Color_SelectedLabelFill_App=0,0,0
 Color_SelectedLabelFill_Gnd=0,0,0
 Color_APP_RunwayExtension=72,73,75
+Color_SelectedLabelBorder_Gnd=5,6,7
 
 Window_APP_Scale=18
 Window_APP_AltFilter=6000
