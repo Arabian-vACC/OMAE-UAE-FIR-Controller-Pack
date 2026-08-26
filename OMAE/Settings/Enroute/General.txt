@@ -67,7 +67,7 @@ m_EnableVoiceRecognition:0
 m_VoiceRecognitionStyle:2
 m_SModeTransponders:HLEGWQS
 m_CorrelationMode:2
-m_CorrelationDistance:30
+m_CorrelationDistance:0
 m_SimulateRadars:1
 m_AllowCorrelatedTAGDown:1
 m_ShowDetailedOverUntagged:1
