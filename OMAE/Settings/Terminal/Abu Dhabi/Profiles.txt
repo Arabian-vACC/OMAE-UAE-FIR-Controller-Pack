@@ -29,15 +29,15 @@ ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_F1_APP:150:5
 ATIS2:"Abu Dhabi Director" - TURN THEN RESPOND!
-ATIS3:Report callsign only on initial contact, eg. "Dubai Director, ETD18G"
+ATIS3:Report callsign only on initial contact, eg. "Abu Dhabi Director, ETD18G"
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_F1X_APP:150:5
 ATIS2:"Abu Dhabi Director" - TURN THEN RESPOND!
-ATIS3:Report callsign only on initial contact, eg. "Dubai Director, ETD18G"
+ATIS3:Report callsign only on initial contact, eg. "Abu Dhabi Director, ETD18G"
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_F2_APP:150:5
 ATIS2:"Abu Dhabi Director" - TURN THEN RESPOND!
-ATIS3:Report callsign only on initial contact, eg. "Dubai Director, ETD18G"
+ATIS3:Report callsign only on initial contact, eg. "Abu Dhabi Director, ETD18G"
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 PROFILE:OMAA_I_APP:150:5
 ATIS2:"Abu Dhabi Information"
