@@ -8,7 +8,7 @@
 	<pilotTobt mode="true" />
 	<autoAtot mode="false" />
 	<invalidateAtTsat mode="true" />
-	<invalidateAtTobt mode="true" />
+	<invalidateAtTobt mode="false" />
 	<readySetTsac mode="true" />
 	<Rates url="https://raw.githubusercontent.com/Arabian-vACC/CDM/refs/heads/main/OMAE/rate.txt" />
 	<Taxizones url="https://raw.githubusercontent.com/Arabian-vACC/CDM/refs/heads/main/OMAE/taxizones.txt" />
